@@ -25,11 +25,7 @@ function About() {
             {/* ✅ Include the AboutCard here */}
             <AboutCard />
           </Col>
-          <Col md={5} style={{ paddingTop: "80px", paddingBottom: "20px" }}>
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="about" />
-            </Tilt>
-          </Col>
+          
         </Row>
       </Container>
     </Container>
